@@ -34,4 +34,12 @@ public class Checkout {
 
     @Column(name = "book_id")
     private Long bookId;
+
+    public Long getBookId() {
+        return this.bookId;
+    }
+
+    public String getReturnDate() {
+        return this.returnDate;
+    }
 }
